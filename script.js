@@ -35,3 +35,30 @@ lightbulb3.addEventListener("click", function() {
     lightbulb3.classList.toggle("active");
     }
 })
+
+
+lightbulb1.addEventListener("mouseover", function() {
+    lightbulb1.classList.toggle("active");
+})
+
+lightbulb1.addEventListener("mouseout", function() {
+    lightbulb1.classList.toggle("active");
+})
+
+
+lightbulb2.addEventListener("mouseover", function() {
+    lightbulb2.classList.toggle("active");
+})
+
+lightbulb2.addEventListener("mouseout", function() {
+    lightbulb2.classList.toggle("active");
+})
+
+
+lightbulb3.addEventListener("mouseover", function() {
+    lightbulb3.classList.toggle("active");
+})
+
+lightbulb3.addEventListener("mouseout", function() {
+    lightbulb3.classList.toggle("active");
+})
