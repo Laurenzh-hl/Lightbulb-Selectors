@@ -8,18 +8,30 @@ let count = 0;
 
 lightbulb1.addEventListener("click", function() {
     count++;
+    if ( count == 1) {
+        subtitle.innerHTML = "You've clicked the lights " + count + " time"; 
+    } else {
     subtitle.innerHTML = "You've clicked the lights " + count + " times";
     lightbulb1.classList.toggle("active");
+    }
 })
 
 lightbulb2.addEventListener("click", function() {
     count++;
+    if ( count == 1) {
+        subtitle.innerHTML = "You've clicked the lights " + count + " time"; 
+    } else {
     subtitle.innerHTML = "You've clicked the lights " + count + " times";
     lightbulb2.classList.toggle("active");
+    }
 })
 
 lightbulb3.addEventListener("click", function() {
     count++;
+    if ( count == 1) {
+        subtitle.innerHTML = "You've clicked the lights " + count + " time"; 
+    } else {
     subtitle.innerHTML = "You've clicked the lights " + count + " times";
     lightbulb3.classList.toggle("active");
+    }
 })
